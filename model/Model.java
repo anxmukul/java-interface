@@ -8,5 +8,4 @@ public class Model implements Calculator {
         double dist = Math.sqrt(Math.pow((p2.ycord - p1.ycord), 2) + Math.pow((p2.xcord - p1.xcord), 2));
         return dist;
     }
-
 }
